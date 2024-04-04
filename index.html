@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 0.75rem;
+    }
+    .responsive-bg {
+     margin-top: auto ;
+     height: 100vh; 
+     background-image: url('./cover.jpg'); 
+     background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+    }
+    #intro {
+      background-color: black;
+      max-width: 100%;
+      height: auto;
+      
+    }
+
+    /* Height for devices larger than 576px */
+    @media (max-width: 1250px) {
+      #intro {
+        margin-top: -58.59px;
+      }
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+  <script src="./index.js"></script>
+  <div class="Banner"></div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">GOAT</span>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./Cristiano Ronaldo CR7 Logo PNG vector in SVG, PDF, AI, CDR format.jpeg" alt="Uefa Champions League" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">PROFILE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HIGHLIGHTS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              RECORDS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">On-Field</a></li>
+              <li><a class="dropdown-item" href="#">Off-Field</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Feats</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Siuu" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="intro" class="bg-image shadow-2-strong">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+      <div class="container d-flex align-items-center justify-content-center text-center h-100">
+        <div class="text-white" data-mdb-theme="dark">
+          <h1 class="mb-3">THE GOAT</h1>
+          <h5 class="mb-4"></h5>
+          <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="https://youtu.be/Fwi34MiTj1Y?si=eOTnzUWcBvKktUdK" role="button"
+             rel="nofollow" target="_blank">HISTORY</a>
+          <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init href="https://youtu.be/0XTy9NgSTYE?si=4bDhijyXH__rZb_z" target="_blank"
+             role="button">ACHIEVEMENTS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive-bg">
+  </div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Cristiano Ronaldo dos Santos Aveiro</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Cristiano Ronaldo, the epitome of excellence on the football pitch, embodies the acronym CR7, which has become synonymous with greatness. As the Greatest Of All Time (GOAT), Ronaldo's unparalleled skill, dedication, and achievements have solidified his status as a living legend in the world of football."
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">COUNTRY</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">CLUBS</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="https://i.pinimg.com/736x/c0/bb/25/c0bb25903a47f7181ebf0a513f55868d.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"
+          height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Why We Adore Him?</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./noun-athlete-6556884.svg" alt="Dedication" height="40">
+        </div>
+        <h3 class="fs-2">Dedication</h3>
+        <p>
+          Cristiano Ronaldo's unparalleled dedication shines through his steadfast commitment to training, maintaining peak physical form, and incessantly<br>pursuing excellence, both on and off the field. His unwavering work ethic and relentless drive for improvement have catapulted him to the status of<br> one of the greatest footballers in history.</p>
+        <a href="#" class="icon-link">
+          Get a Siuu
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./noun-brain-4696574.svg" alt="Mentality" height="40">
+        </div>
+        <h3 class="fs-2">Mentality</h3>
+        <p>
+          Cristiano Ronaldo's mentality is characterized by an unyielding determination to succeed. He possesses a fierce competitive spirit, an insatiable hunger for victory, and an unwavering belief in his abilities. Ronaldo's mentality fuels his relentless pursuit of greatness, driving him to push his limits and overcome challenges with resilience and fortitude.
+          </p>
+        <a href="#" class="icon-link">
+          Get a Siuu
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./noun-repeatedly-5882001.svg" alt="chat-square-heart" height="45">
+        </div>
+        <h3 class="fs-2">Hardwork</h3>
+        <p>
+          Cristiano Ronaldo's success hinges on his unwavering commitment to hard work. Known for his tireless training, he continually pushes himself to excel and stay in top shape. Ronaldo's relentless work ethic distinguishes him, inspiring athletes globally. His dedication to excellence serves as a model for aspiring sportspeople around the world.</p>
+        <a href="#" class="icon-link">
+          Get a Siuu
+          <img src="./chevron-right.svg" alt="chevron-right">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./cover4.jpg" class="d-block w-100" alt="couple">
+        </div>
+        <div class="carousel-item">
+          <img src="./cover1.jpg" class="d-block w-100" alt="dog">
+        </div>
+        <div class="carousel-item">
+          <img src="./final 2.jpg" class="d-block w-100" alt="family">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <p style="color: black;" class="text-body-secondary">© 2024 Cristiano Ronaldo, Inc.</p>
+      </div>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section-1</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section-2</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section-3</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
